@@ -207,6 +207,7 @@ section#conceptArt div div img:hover {
 	width: 200px;
 	height: 200px;
 	border-radius: 100%;
+	margin: 40px 0;
 }
 
 #castGallery p {
@@ -222,8 +223,8 @@ section#conceptArt div div img:hover {
 }
 
 #redmayne p {
-	top: 100px;
-	left: 40px;
+	top: 130px;
+	left: 30px;
 }
 
 #fogler {
@@ -231,7 +232,7 @@ section#conceptArt div div img:hover {
 }
 
 #fogler p {
-	top: 100px;
+	top: 130px;
 	left: 65px;
 }
 
@@ -240,7 +241,7 @@ section#conceptArt div div img:hover {
 }
 
 #waterston p {
-	top: 100px;
+	top: 130px;
 	left: 15px;
 }
 
@@ -249,7 +250,7 @@ section#conceptArt div div img:hover {
 }
 
 #sudol p {
-	top: 100px;
+	top: 130px;
 	left: 55px;
 }
 
