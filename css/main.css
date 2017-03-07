@@ -3,6 +3,8 @@ body {
 	background: rgb(220,220,220);
 }
 
+/*Header Section*/
+
 header {
 	display: flex;
 	justify-content: center;
@@ -15,6 +17,8 @@ header h1 {
 	font-size: 3.5em;
 	color: white;
 }
+
+/*Nav Section*/
 
 nav {
 	display: flex;
@@ -57,6 +61,8 @@ nav ul li a:hover {
 	letter-spacing: .2em;
 }
 
+/*Hero Section*/
+
 section#hero {
 	height: 650px;
 	background: blue url(../images/fb_banner.jpg);
@@ -68,6 +74,8 @@ section#hero {
 section#hero iframe {
 	margin: auto;
 }
+
+/*Synopsis Section*/
 
 section#synopsis {
 	display: flex;
@@ -84,6 +92,8 @@ section#synopsis blockquote {
 	width: 80%;
 	text-align: justify;
 }
+
+/*Concept Art Section*/
 
 section#conceptArt h2 {
 	text-align: center;
@@ -124,6 +134,8 @@ section#conceptArt div div img {
 section#conceptArt div div img:hover {
 	transform: none;
 }
+
+/*Concept Art Modals Section*/
 
 #fb_1, #fb_2, #fb_3, #fb_4 {
 	position: fixed;
@@ -174,6 +186,8 @@ section#conceptArt div div img:hover {
 	transform: none;
 }
 
+/*Cast Section*/
+
 #cast h2 {
 	text-align: center;
 }
@@ -200,6 +214,8 @@ section#conceptArt div div img:hover {
 	color: white;
 	font-size: 1.3em
 }
+
+/*Overlayed Text*/
 
 #redmayne {
 	position: relative;
@@ -236,6 +252,8 @@ section#conceptArt div div img:hover {
 	top: 100px;
 	left: 55px;
 }
+
+/*Footer Section*/
 
 footer h2 {
 	margin: 0;
