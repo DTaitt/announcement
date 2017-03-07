@@ -1,0 +1,271 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	background: rgb(220,220,220);
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: black;
+}
+
+header h1 {
+	font-family: 'Satisfy', cursive;
+	font-size: 3.5em;
+	color: white;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+	height: 50px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid white;
+	background: black;
+}
+
+nav ul {
+	width: 95%;
+	margin: auto;
+	padding: 0;
+	display: flex;
+	justify-content: space-around;
+}
+
+nav ul li {
+	list-style: none;
+}
+
+nav ul li a {
+	padding: 15px 180px;
+	text-decoration: none;
+	transition: 2s;
+	color: white;
+	background: rgba(70,130,180,.8);
+}
+
+nav ul li a:hover {
+	border-left: 1px solid white;
+	border-right: 1px solid white;
+	background: rgba(70,130,180,1);
+	text-decoration: none;
+	transition: 2s;
+	color: white;
+	letter-spacing: .2em;
+}
+
+section#hero {
+	height: 650px;
+	background: blue url(../images/fb_banner.jpg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section#hero iframe {
+	margin: auto;
+}
+
+section#synopsis {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 200px;
+	background: rgba(218,165,32,.7);
+	width: 95%;
+	margin: auto;
+}
+
+section#synopsis blockquote {
+	font-style: italic;
+	width: 80%;
+	text-align: justify;
+}
+
+section#conceptArt h2 {
+	text-align: center;
+	padding: 25px 0;
+	margin: 0;
+	width: 95%;
+	margin: auto;
+}
+
+section#conceptArt div#gallery {
+	padding: 25px;
+	background: rgba(70,130,180,.8);
+	display: flex;
+	justify-content: space-around;
+	width: 95%;
+	margin: auto;
+}
+
+section#conceptArt img {
+	width: 200px;
+	height: 200px;
+	transition: 2s;
+	border-radius: 15px;
+}
+
+section#conceptArt img:hover {
+	transform: scale(1.1,1.1);
+	border-radius: 0%;
+	transition: 2s;
+}
+
+section#conceptArt div div img {
+	width: 700px;
+	height: 700px;
+	border-radius: 0px;
+}
+
+section#conceptArt div div img:hover {
+	transform: none;
+}
+
+#fb_1, #fb_2, #fb_3, #fb_4 {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+	z-index: 99999;
+	opacity:0;
+	transition: opacity .5s ease-in;
+	pointer-events: none;
+}
+
+#fb_1:target, #fb_2:target, #fb_3:target, #fb_4:target {
+	opacity:1;
+	pointer-events: auto;
+}
+
+#fb_1 div, #fb_2 div,#fb_3 div, #fb_4 div  {
+	width: 750px;
+	position: relative;
+	margin: 50px auto;
+	padding: 20px;
+	border-radius: 10px;
+	background: #fff;
+}
+
+.close {
+	background: red;
+	color: white;
+	line-height: 25px;
+	position: absolute;
+	right: -10px;
+	text-align: center;
+	top: -10px;
+	width: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 12px;
+	box-shadow: 1px 1px 3px #000;
+	opacity: 1;
+}
+
+.close:hover { 
+	color: black; 
+	opacity: 1;
+	transform: none;
+}
+
+#cast h2 {
+	text-align: center;
+}
+
+#castGallery {
+	background: rgba(0,0,0,.9);
+	width: 95%;
+	margin: auto;
+}
+
+#castGallery {
+	display: flex;
+	justify-content: space-around;
+}
+
+#castGallery img {
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+}
+
+#castGallery p {
+	position: absolute;
+	color: white;
+	font-size: 1.3em
+}
+
+#redmayne {
+	position: relative;
+}
+
+#redmayne p {
+	top: 100px;
+	left: 40px;
+}
+
+#fogler {
+	position: relative;
+}
+
+#fogler p {
+	top: 100px;
+	left: 65px;
+}
+
+#waterston {
+	position: relative;
+}
+
+#waterston p {
+	top: 100px;
+	left: 15px;
+}
+
+#sudol {
+	position: relative;
+}
+
+#sudol p {
+	top: 100px;
+	left: 55px;
+}
+
+footer h2 {
+	margin: 0;
+	padding: 25px;
+	text-align: center;
+}
+
+footer #crew {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 600px;
+	width: 95%;
+	background: grey;
+	margin: auto;
+}
+
+footer table {
+	border: 1px solid white;
+	width: 80%;
+	height: 350px;
+	text-align: center;
+	color: white;
+}
+
+footer table th {
+	text-align: center;
+	color: white
+}
+
+footer table td {
+	border: 1px solid white;
+}
